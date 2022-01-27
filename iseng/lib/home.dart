@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
+  get onPressed => null;
+
   mainAxisAlignment() => null;
 
 
@@ -21,6 +23,7 @@ class HomePage extends StatelessWidget {
                   ),
               child:
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -42,7 +45,6 @@ class HomePage extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Spacer(),
                   Row(
                     children: [
                       Icon(
@@ -53,7 +55,45 @@ class HomePage extends StatelessWidget {
                     ],
                   )
                 ],
-              )
+              ),
+            ),
+            SizedBox(height: 15,),
+            Padding(
+              padding: EdgeInsets.symmetric(
+                horizontal: 20
+              ),
+              child: Row(
+                children: [
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          IconButton(
+                            icon: 
+                            Icon(Icons.favorite_outline), 
+                            iconSize: 30, 
+                            onPressed: () {}
+                          ),
+                          IconButton(
+                            icon: 
+                            Icon(Icons.favorite_outline), 
+                            iconSize: 30, 
+                            onPressed: () {}
+                          ),
+                          IconButton(
+                            icon: 
+                            Icon(Icons.favorite_outline), 
+                            iconSize: 30, 
+                            onPressed: () {}
+                          ),
+                        ],
+                      )
+                    ],
+                  )
+                ],
+              ),
             ),
           ],
         )
