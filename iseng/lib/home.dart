@@ -10,8 +10,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+        child: ListView(
           children: [
             Image.asset('assets/images/saos4.jpg'),
             SizedBox(
@@ -84,7 +83,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ],
-        )
+        ),
       ),
     );
   }
