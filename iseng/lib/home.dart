@@ -71,20 +71,14 @@ class HomePage extends StatelessWidget {
                       Text('Save',style: TextStyle(fontWeight: FontWeight.w500),),
                     ],
                   ),
+                  Padding(padding: EdgeInsets.only(left: 20)),
                   Column(
                     children: [
-                      IconButton(icon: Icon(Icons.favorite_outline), onPressed: () {},),
+                      IconButton(icon: Icon(Icons.download_outlined), onPressed: () {},),
                       SizedBox(height: 5,),
-                      Text('Save',style: TextStyle(fontWeight: FontWeight.w500),),
+                      Text('Download',style: TextStyle(fontWeight: FontWeight.w500),),
                     ],
                   ),
-                  Column(
-                    children: [
-                      IconButton(icon: Icon(Icons.favorite_outline), onPressed: () {},),
-                      SizedBox(height: 5,),
-                      Text('Save',style: TextStyle(fontWeight: FontWeight.w500),),
-                    ],
-                  )
                 ],
               ),
             ),
