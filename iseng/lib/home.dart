@@ -66,8 +66,23 @@ class HomePage extends StatelessWidget {
                 children: [
                   Column(
                     children: [
-                      IconButton(icon: Icon(Icons.favorite_outline), onPressed: () {}),
-                      Text('Save'),
+                      IconButton(icon: Icon(Icons.favorite_outline), onPressed: () {},),
+                      SizedBox(height: 5,),
+                      Text('Save',style: TextStyle(fontWeight: FontWeight.w500),),
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      IconButton(icon: Icon(Icons.favorite_outline), onPressed: () {},),
+                      SizedBox(height: 5,),
+                      Text('Save',style: TextStyle(fontWeight: FontWeight.w500),),
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      IconButton(icon: Icon(Icons.favorite_outline), onPressed: () {},),
+                      SizedBox(height: 5,),
+                      Text('Save',style: TextStyle(fontWeight: FontWeight.w500),),
                     ],
                   )
                 ],
