@@ -65,31 +65,9 @@ class HomePage extends StatelessWidget {
               child: Row(
                 children: [
                   Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          IconButton(
-                            icon: 
-                            Icon(Icons.favorite_outline), 
-                            iconSize: 30, 
-                            onPressed: () {}
-                          ),
-                          IconButton(
-                            icon: 
-                            Icon(Icons.favorite_outline), 
-                            iconSize: 30, 
-                            onPressed: () {}
-                          ),
-                          IconButton(
-                            icon: 
-                            Icon(Icons.favorite_outline), 
-                            iconSize: 30, 
-                            onPressed: () {}
-                          ),
-                        ],
-                      )
+                      IconButton(icon: Icon(Icons.favorite_outline), onPressed: () {}),
+                      Text('Save'),
                     ],
                   )
                 ],
