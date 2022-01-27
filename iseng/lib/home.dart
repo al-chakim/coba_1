@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
+  mainAxisAlignment() => null;
+
 
   @override
   Widget build(BuildContext context) {
@@ -40,6 +42,7 @@ class HomePage extends StatelessWidget {
                       ),
                     ],
                   ),
+                  Spacer(),
                   Row(
                     children: [
                       Icon(
